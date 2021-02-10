@@ -216,7 +216,7 @@ display: none;
 }
 .c{
 	width: 95%;
-	animation: c 2s;
+	animation: c 6s;
 }
 #c{
 	float:right;
@@ -225,23 +225,23 @@ display: none;
 }
 .html{
 	width: 90%;
-	animation: html 2s;
+	animation: html 6s;
 }
 .css{
 	width: 70%;
-	animation: css 2s;
+	animation: css 6s;
 }
 .Javascript{
 	width: 30%;
-	animation: Javascript 2s;
+	animation: Javascript 6s;
 }
 .boot{
 	width: 90%;
-	animation: boot 2s;
+	animation: boot 6s;
 }
 .word{
 	width: 80%;
-	animation: word 2s;
+	animation: word 6s;
 }
 @keyframes c {
 	0%{
