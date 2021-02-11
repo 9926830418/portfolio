@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+	<div>
+		<nav class="nav">
+			<div>
+				<h3 class="logo">Portfo<span>lio.</span></h3>
+			</div>
+			<input type="checkbox" id="check">
+			<label for="check">
+				<i class="fas fa-bars" id="btn"></i>
+				<i class="fas fa-times" id="cancel"></i>
+			</label>
+			<ul>
+				<li class="active"><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<header id="home">
+		<div class="main">
+			<h3>Hello, my name is</h3>
+			<h1>Abhishek Patidar</h1>
+			<h2>And I'am a<span></span></h2>
+			<a id="cv" href="https://drive.google.com/file/d/1UU3hBjWmOpunoh3cqSSUB9QAw3wh394-/view?usp=sharing">Get Cv</a>
+             <div class="icon">
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-skype"></a>
+			 </div>
+		</div>
+	</header>
+	<!--Skills section-->
+
+	<section id="skills">
+		<div class="skill">
+		<h2>My<span>Skills.</span></h2>
+		
+		 <li>
+             <h3>C programming<span id="c">95%</span></h3><span class="bar"><span class="c"></span></span>
+		 </li>
+		 <li>
+			<h3>HTML5<span id="c">90%</span></h3><span class="bar"><span class="html"></span></span>
+		</li>
+		<li>
+			<h3>CSS3<span id="c">70%</span></h3><span class="bar"><span class="css"></span></span>
+		</li>
+		<li>
+			<h3>JAVA SCRIPT<span id="c">30%</span></h3><span class="bar"><span class="Javascript"></span></span>
+		</li>
+		<li>
+			<h3>BOOTSTRAP<span id="c">90%</span></h3><span class="bar"><span class="boot"></span></span>
+		</li>
+		<li>
+			<h3>WORDPRESS<span id="c">80%</span></h3><span class="bar"><span class="word"></span></span>
+		</li>
+		</div>
+	</section>
+	<!--about section-->
+	<section id="about">
+           <div class="img">
+			   <img src="image/pic.jpg" alt=" pic">
+            </div>
+		   <div class="about">
+			   <h5>ABOUT ME</h5>
+			   <h2>Abhishek Patidar</h2>
+			    <p class="intro">
+                   I am a front End Developer and a designer.<br>  
+				   I have done My Master of Computer Application from Vellore Institue of Technologies.<br>
+				   I have passion of developing a new design, i am based in indore.
+				</p>
+                </div>
+	</section>
+	<!--contact us page section-->
+	<section id="contact" class="contact">
+		<h1 id="head">Get in<span>Touch with us</span></h1>
+		<p id="p">Swing by for a cup of coffee,Or leave us a message:</p>
+		<div class="container">
+			<h1 id="status"></h1>
+			<form class="form" action="https://formspree.io/f/xpzonzyd" method="POST" id="myform">
+				<div class="form-group">
+					<label for="firstName">First Name:</label>
+					<input type="text" id="firstName" name="firstName" placeholder="  First Name here....">
+				</div>
+
+				<div class="form-group">
+					<label for="lastName">Last Name:</label>
+					<input type="text" id="lastName" name="lastName" placeholder="  last Name here...">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" id="message" name="email" placeholder="  Email here...">
+				</div>
+				<div class="form-group">
+					<label for="message">Message:</label>
+					<textarea name="message" id="message" placeholder="  Write message here..." cols="30" rows="10"
+						style="height: 100px;"></textarea>
+				</div>
+				<div>
+					<button type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</section>
+   <footer class="footer">
+	   <p class="p">
+		copyright $:2020 - All right reserved!
+	   </p>
+   </footer>
+	<script src="js/contact.js"></script>
+</body>
+
+</html>
