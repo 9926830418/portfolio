@@ -689,8 +689,9 @@ display: none;
 		width: 100%;
 		border: none;
                 margin-top: 0px;
-	        margin-left: 25px;
+	        margin-left: 0px;
 		padding-top:10px;
+		padding-left:20px;
 	        float: none;
 	   
 
