@@ -682,17 +682,22 @@ display: none;
 	
 	.certificate{
 		width: 100%;
-		height: 45vh;
+		height: auto;
 	}
 	.gallery {
 		
-		width: 20%;
+		width: 50%;
 		border: none;
 
 	 }
 	 img.aws{
-		margin-left: 80px;
-		margin-right: auto;
+		
 		
 	 }
+	img.python{
+		
+	}
+	img.robot{
+		
+	}
 }
