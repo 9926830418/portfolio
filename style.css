@@ -692,8 +692,8 @@ display: none;
 
 	 }
 	 img.aws{
-		width:20%;
-		 height:20vh;
+		width:100%;
+		 height:auto;
 		
 	 }
 	img.python{
