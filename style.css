@@ -686,7 +686,7 @@ display: none;
 	}
 	.gallery {
 		
-		width: 50%;
+		width: 100%;
 		border: none;
                 margin-top: 0px;
 	        margin-left: 0px;
@@ -700,12 +700,12 @@ display: none;
 		
 	 }
 	img.python{
-		width:100px;
-		 height:20px;
+		width:100%;
+		 height:auto;
 	}
 	img.robot{
-		width:100px;
-		 height:20px;
+		width:100%;
+		 height:auto;
 	}
 	
 }
