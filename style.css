@@ -693,15 +693,15 @@ display: none;
 	 }
 	 img.aws{
 		width:10%;
-		 height:auto;
+		 height:20vh;
 		
 	 }
 	img.python{
-		width:20%;
+		width:10%;
 		 height:20vh;
 	}
 	img.robot{
-		width:20%;
+		width:10%;
 		 height:20vh;
 	}
 }
