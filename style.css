@@ -692,16 +692,16 @@ display: none;
 
 	 }
 	 img.aws{
-		width:10%;
-		 height:20vh;
+		width:100px;
+		 height:20px;
 		
 	 }
 	img.python{
-		width:10%;
-		 height:20vh;
+		width:100px;
+		 height:20px;
 	}
 	img.robot{
-		width:10%;
-		 height:20vh;
+		width:100px;
+		 height:20px;
 	}
 }
