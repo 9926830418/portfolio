@@ -682,7 +682,7 @@ display: none;
 	
 	.certificate{
 		width: 100%;
-		height: auto;
+		height: 100vh;
 	}
 	.gallery {
 		
@@ -691,7 +691,7 @@ display: none;
                 margin-top: 0px;
 	        margin-left: 0px;
 		padding-top:10px;
-		padding-left:30px;
+		padding-left:35px;
 	        float: none;
 	   
 
