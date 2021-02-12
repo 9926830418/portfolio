@@ -639,9 +639,10 @@ display: none;
 	color: #fff;
 	}
 	.icon{
-     	width: 80%;
+     	       width: 80%;
 		height: auto;
 		margin-top: 40px;
+		display:none;
 	}
 	.fa{
 		  padding: 10px;
