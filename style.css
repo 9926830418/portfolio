@@ -686,8 +686,8 @@ display: none;
 	}
 	.gallery {
 		
-		width: 30%;
-		height: auto;
+		width: 100px;
+		height: 10px;
 		border: none;
                 margin-top: 0px;
 	        margin-left: 0px;
