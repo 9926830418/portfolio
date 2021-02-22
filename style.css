@@ -759,7 +759,7 @@ label #btn, label #cancel{
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
-		font-size: 25px;
+		font-size: 22px;
 	}
 	.icon{
      	width: 80%;
@@ -812,5 +812,8 @@ label #btn, label #cancel{
 	}
 	.exp-letter img{
 		width: 85% ;
+	}
+	.container{
+		width: 75%;
 	}
 }
