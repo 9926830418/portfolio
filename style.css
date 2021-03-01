@@ -180,13 +180,13 @@ list-style-type: none;
     @keyframes animate { 
   
         0% { 
-            content: "Web developer"; 
+            content: "Web Designer"; 
             display: inline;
             
         } 
   
         50% { 
-            content: "blogger"; 
+            content: "front-End Developer"; 
             
         } 
   
